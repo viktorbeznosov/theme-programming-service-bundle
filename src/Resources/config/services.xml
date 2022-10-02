@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="symfony_diplom.theme_programming_service" class="SymfonyDiplom\ThemeProgrammingServiceBundle\ThemeProgrammingService" public="true"></service>
+        <service id="SymfonyDiplom\ThemeProgrammingServiceBundle\ThemeProgrammingService" alias="symfony_diplom.theme_programming_service" public="false"></service>
+    </services>
+</container>
